@@ -4,18 +4,18 @@ class BankAccount {
 
     public userId: number;
     public accountNo: string;
-    protected balance: number;
+    private _balance: number;  //(_): private variable e bujhae)
 
     constructor(userId: number, accountNo: string, balance: number) {
 
         this.userId = userId;
         this.accountNo = accountNo;
-        this.balance = balance;
+        this._balance = balance;
 
 
     }
     addbalance(balance: number) {
-        this.balance += balance
+        this._balance += balance
     }
 
 }
