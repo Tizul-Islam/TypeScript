@@ -21,10 +21,10 @@ class BankAccount {
         this.accountNo = accountNo;
         this.balance = balance;
 
-    }
+    } 
 
     // setter
-    set addbalance(amount: number) {
+    set addbalance(amount: number) {  
 
         this.balance +=amount;
 
