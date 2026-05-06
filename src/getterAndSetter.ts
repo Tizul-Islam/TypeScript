@@ -21,12 +21,12 @@ class BankAccount {
         this.accountNo = accountNo;
         this.balance = balance;
 
-    } 
+    }
 
     // setter
-    set addbalance(amount: number) {  
+    set addbalance(amount: number) {
 
-        this.balance +=amount;
+        this.balance += amount;
 
     }
 
@@ -39,12 +39,12 @@ class BankAccount {
 }
 
 const myAccount =
-  new BankAccount(
-    101,
-    "tizul123",
-    100,
-  );
+    new BankAccount(
+        101,
+        "tizul123",
+        100,
+    );
 
-  myAccount.addbalance = 100;
-  myAccount.addbalance = 100; 
-  console.log(myAccount);
+myAccount.addbalance = 100;
+myAccount.addbalance = 100;
+console.log(myAccount);
